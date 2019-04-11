@@ -1,0 +1,46 @@
+.app-wrapper {
+  width: 100vw;
+  min-height: 100vh;
+  background: linear-gradient(67deg, rgb(155, 155, 240), rgb(101, 101, 223));
+  padding-top: 4rem;
+}
+
+.container {
+  width: 40%;
+  margin: 0 auto;
+  border: rgb(173, 171, 171);
+  border-radius: 0.2rem;
+  box-shadow: 0 0 1rem rgba(0, 0, 0, 0.7);
+}
+
+.editor {
+  width: 100%;
+}
+
+.heading {
+  height: 2rem;
+  padding: 0.3rem;
+  background: linear-gradient(rgb(198, 230, 198), rgb(168, 214, 168));
+  border-bottom: rgb(202, 197, 197);
+}
+
+.editor_editing-field {
+  width: 100%;
+  overflow-x: hidden;
+  overflow-y: scroll;
+}
+
+.editor__text-area {
+  width: 100%;
+  min-height: 30vh;
+  resize: vertical;
+}
+
+/* Preview Section */
+
+.preview-section {
+  width: 60%;
+  min-height: 20vh;
+  margin-top: 3rem;
+  background: rgb(250, 252, 252);
+}
