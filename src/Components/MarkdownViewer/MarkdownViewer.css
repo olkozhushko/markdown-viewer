@@ -11,6 +11,7 @@
   border: rgb(173, 171, 171);
   border-radius: 0.2rem;
   box-shadow: 0 0 1rem rgba(0, 0, 0, 0.7);
+  transition: width 0.5s;
 }
 
 .editor {
@@ -22,6 +23,7 @@
   padding: 0.3rem;
   background: linear-gradient(rgb(198, 230, 198), rgb(168, 214, 168));
   border-bottom: rgb(202, 197, 197);
+  position: relative;
 }
 
 .editor_editing-field {
@@ -36,6 +38,22 @@
   resize: vertical;
 }
 
+.fullscreen-icon-container {
+  display: inline-block;
+  position: absolute;
+  right: 0.5rem;
+  top: 0.2rem;
+}
+
+.fullscreen-icon {
+  font-size: 1.5rem;
+  transition: all 0.3s;
+}
+
+.fullscreen-icon:hover {
+  color: rgb(73, 66, 66);
+}
+
 /* Preview Section */
 
 .preview-section {
@@ -43,4 +61,17 @@
   min-height: 20vh;
   margin-top: 3rem;
   background: rgb(250, 252, 252);
+}
+
+.preview-container {
+  padding: 0.5rem 1rem 1rem 1rem;
+}
+
+
+.enlarged {
+  position: fixed;
+  width: 95%;
+  top: 1.5rem;
+  left: 2rem;
+  z-index: 10;
 }

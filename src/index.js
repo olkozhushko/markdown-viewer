@@ -1,7 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import MarkdownViewer from './Components/MarkdownViewer';
+import MarkdownViewer from './Components/MarkdownViewer/MarkdownViewer';
 import * as serviceWorker from './serviceWorker';
 
 ReactDOM.render(<MarkdownViewer />, document.getElementById('root'));
