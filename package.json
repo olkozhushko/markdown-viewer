@@ -8,7 +8,7 @@
     "@fortawesome/react-fontawesome": "^0.1.4",
     "express": "^4.17.0",
     "express-favicon": "^2.0.1",
-    "marked": "^0.6.2",
+    "marked": "^0.7.0",
     "path": "^0.12.7",
     "react": "^16.8.6",
     "react-dom": "^16.8.6",
